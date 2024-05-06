@@ -1,0 +1,42 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+.Arrow{
+   height: 20x;
+   width: 20px;
+   cursor: pointer;
+}
+
+#btn-left{
+    transform: rotate(180deg);
+}
+
+.fream{
+    height: 500px;
+    width: 800px;
+    overflow-x: scroll;
+    box-shadow: 2px 5px 10px  black;
+}
+
+.fream::-webkit-scrollbar{
+  display: none;
+}
+.slider{
+    display: flex;
+}
+.Image{
+   height: 100%;
+   width: 100%;
+}
